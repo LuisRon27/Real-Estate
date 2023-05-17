@@ -7,8 +7,8 @@ const Navigation = () => {
     const [navList, setnavList] = useState(false);
 
     return (
-        <div className='container flex header' >
-
+        <div className=' flex header' >
+            
             <div className='logo'>
                 <img src="./images/logo.png" alt="Logo" />
             </div>
@@ -53,7 +53,6 @@ const Navigation = () => {
                 </button>
             </div>
             
-
         </div>
     );
 }

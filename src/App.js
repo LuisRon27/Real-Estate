@@ -7,6 +7,7 @@ import Blog from './pages/Blog';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 
+
 import Navigation from './components/Navigation';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/pricing" element={<Pricing />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} /> 
+        
       </Routes>
     </Router>
   );
