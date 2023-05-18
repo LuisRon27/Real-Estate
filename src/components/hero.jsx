@@ -6,6 +6,9 @@ const Hero = () => {
     return (
         <div>
             <section className='hero'>
+                <video autoPlay muted loop>
+                    <source src={require("../assets/videoHome.mp4")} type="video/mp4" />
+                </video>
                 <div className='container'>
 
                     <Heading title='Search Your Next Home' subtitle='find new & featured property located in your local city.' ></Heading>

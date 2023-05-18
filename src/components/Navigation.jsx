@@ -10,7 +10,7 @@ const Navigation = () => {
         <div className=' flex header' >
             
             <div className='logo'>
-                <img src="./images/logo.png" alt="Logo" />
+                <img src="https://biz.prlog.org/letsrent/logo.jpg" alt="Logo" />
             </div>
 
             <nav className='nav'>
