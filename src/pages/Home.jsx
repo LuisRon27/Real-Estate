@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../components/hero';
 import Featured from '../components/featured';
 import Recent from '../components/recent';
+import Awards from '../components/awards';
+import Location from '../components/location';
 
 
 
@@ -12,6 +14,8 @@ const Home = () => {
             <Hero></Hero>
             <Featured></Featured>
             <Recent></Recent>
+            <Awards></Awards>
+            <Location></Location>
         </div>
         
     );
