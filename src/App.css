@@ -3,6 +3,16 @@
 :root {
     --primary-color: #3F51B5;
     --secundary-color: #FF4081;
+
+    --primary-200: #757de8;
+    --primary-300: #dedeff;
+
+    --accent-200: #ffe4ff;
+    --text-100: #333333;
+    --text-200: #5c5c5c;
+    --bg-100: #F5F5F5;
+    --bg-200: #ebebeb;
+    --bg-300: #c2c2c2;
 }
 
 * {
@@ -138,4 +148,17 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
+}
+
+.btn4 {
+    background-color: var(--text-100);
+    border: 3px solid var(--text-100);
+}
+
+.btn5 {
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
