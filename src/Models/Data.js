@@ -302,7 +302,7 @@ export const pricelist = [
         ],
     },
 ]
-export const footer = [
+export const footerlist = [
     {
         title: "LAYOUTS",
         text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],

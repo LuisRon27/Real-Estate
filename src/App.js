@@ -9,20 +9,21 @@ import Contact from './pages/Contact';
 
 
 import Navigation from './components/Navigation';
+import Footer from './components/footer';
 
 function App() {
   return (
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home /> } />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/pricing" element={<Pricing />} />
-        <Route path="/contact" element={<Contact />} /> 
-        
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer></Footer>
     </Router>
   );
 }
